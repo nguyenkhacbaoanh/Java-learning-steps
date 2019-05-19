@@ -45,7 +45,7 @@ public Connection connect() {
 
 ## import class for query data:
 
-````java
+```java
 import java.sql.ResultSet;
 import java.sql.Statement;
 ```
