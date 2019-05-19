@@ -15,6 +15,7 @@
 ### Exercice n° 2
 En Java, les chaînes de caractères sont représentées par des objets de la classe String, dont les instances sont non mutables. On souhaite pouvoir convertir des chaînes de caractères contenant des nombres en valeur entières. Le faire en utilisant la méthode statique static int parseInt(String) de la classe Integer. Définir une chaîne de caractères contenant un entier et obtenir sa valeur sous forme d'entier (int). Faire attention au fait que la méthode parseInt peut lever l'exception NumberFormatException. Déclarer une chaîne de caractères contenant un nombre réel et obtenir sa valeur sous la forme d'un flottant (double).
 
+> script corrigé pour Exo1 et Exo2 est [la](./POO/FirstPas.java)
 ---
 
 

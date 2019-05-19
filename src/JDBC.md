@@ -1,7 +1,9 @@
 # JDBC with Postgress
 
 ## install Drive class
+
 - add dependency in pom.xml of Maven
+
 ```
 <dependency>
   <groupId>org.postgresql</groupId>
@@ -10,6 +12,7 @@
   <type>bundle</type>
 </dependency>
 ```
+
 - or download jar file from that link [postgresql for java8](https://jdbc.postgresql.org/download/postgresql-42.2.5.jar)
 
 ## Declare url, user, pw:
@@ -64,4 +67,5 @@ Statement stmt = pgdb.connect().createStatement();
 	                    + rs.getInt("ownerid"));
 			}
 
-``
+```
+> the full code is [here](./DBConnection/PostgresDB.java)
